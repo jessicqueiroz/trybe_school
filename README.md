@@ -1,1 +1,1 @@
-# trybe_school
+# projects-trybe-school
