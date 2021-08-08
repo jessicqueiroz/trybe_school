@@ -1,0 +1,28 @@
+h1,p {
+  text-align: center;
+}
+
+*li{
+  list-style: none;
+}
+
+div:hover{
+  border: solid blue;
+}
+
+.li-ordenada :active{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+
+ol:hover{
+  background-color: greenyellow;
+}
+
+.ordenada{
+  background-color: indianred;
+}
+
+.nao-ordenada{
+  background-color: red;
+}

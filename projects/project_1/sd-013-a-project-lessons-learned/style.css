@@ -1,0 +1,52 @@
+body {
+  color: black;
+  margin: auto;
+  padding: 0;
+  background-color: rgb(253, 251, 251);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: normal;
+}
+
+#cabecalho {
+  background-color: palevioletred;
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  border: 10px;
+  top: 0;
+  margin: auto;
+}
+
+nav {
+  padding-left: 390px;
+  border: 10px;
+  padding-top: 120px;
+  margin: 10px;
+}
+
+#minha_foto {
+  padding-left: 500px;
+  width: 150px;
+  margin: auto;
+}
+
+#table , td , th , tr {
+  margin: auto;
+  border: 2px solid black;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  padding-left: 20px;
+  width: 40%;
+  position: relative;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  padding-left: 30px;
+}
+

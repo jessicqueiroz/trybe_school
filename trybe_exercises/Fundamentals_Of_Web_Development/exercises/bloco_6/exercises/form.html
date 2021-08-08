@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="input-name"> Nome
+          <input name="name" id="input-name" type="text" maxlength="40" required>
+        </label>
+        <br>
+        <label for="input-email"> Email
+          <input name="email" id="input-email" type="text" maxlength="50" required>
+        </label>
+        <br>
+        <label for="input-cpf"> CPF
+          <input name="cpf" id="input-cpf" type="text" maxlength="14" value="" required>
+        </label>
+        <br>
+        <label for="input-adress"> Endereço
+          <input name="adress" id="input-adress" type="text" maxlength="200" required>
+        </label>
+        <br>
+        <label for="input-city"> Cidade
+          <input name="city" id="input-city" type="text" maxlength="28" required>
+        </label>
+        <br>
+        <label for="input-city"> Estado
+          <select name="state" id="input-state" required></select>
+        </label>
+        <br>
+        <label for="input-type-casa">
+          <input type="radio" name="type" id="input-type-casa" required> Casa
+        </label>
+        <label for="input-type-ap">
+          <input type="radio" name="type" id="input-type-ap" required> Apartamento
+        </label>
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Última Experiência Profissional</legend>
+        <label for="input-resume"> Resumo do Currículo <br>
+          <textarea name="resume" id="input-resume" maxlength="1000" required></textarea>
+        </label>
+        <br>
+        <label for="input-cargo"> Cargo
+          <input type="text" name="cargo" maxlength="40" id="input-cargo" required>
+        </label>
+        <br>
+        <label for="input-descrition-cargo"> Descrição do cargo
+          <input type="text" name="descrition-cargo" maxlength="500" id="input-descrition-cargo" required>
+        </label>
+        <br>
+        <label for="input-date"> Data de Início
+          <input type="text" name="date" id="input-date" value="" required>
+        </label>
+  </div>
+
+    </fieldset>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.width-and-height{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.super-mario{
+    width: 200px;
+}
+
+.goomba{
+    width: 200px;
+}
+
+.baloon{
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.word{
+    position: absolute;
+    width: 20px;
+    right: 600px;
+    z-index: 2;  
+    
+}
+
+.bowser{
+    width: 200px;
+    
+}
